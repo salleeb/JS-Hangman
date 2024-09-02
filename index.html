@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Hangman</title>
+</head>
+
+<body>
+    <h1>Hangman!</h1>
+    <div class="user-tries">
+        <p>Wrong guesses:
+            <span id="wrong_tries"></span>
+            out of <span id="total_tries"></span>
+        </p>
+    </div>
+    <div class="body">
+        <p class="guessTopic">Guess the name of the music genre</p>
+        <img id="hangmanPic" src="./images/0.svg" alt="Hänga gubbe bild">
+        <p id="wordSpotlight">Word to guess</p>
+        <div id="keyboard"></div>
+        <button class="resetBtn" onClick="reset()">Start over</button>
+    </div>
+    <footer>
+        <p>Saliem Brhane - Chas Academy 2022</p>
+        <address>
+            <a href="mailto:saliem.brhane@outlook.com">saliem.brhane@outlook.com</a>
+        </address>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #FFE7FE;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body h1 {
+  text-transform: uppercase;
+  margin-top: 5vh;
+  font-size: 3em;
+  font-weight: 100;
+}
+body .body {
+  margin-bottom: 20vh;
+}
+body .body #keyboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  font-size: 2em;
+}
+body .body .btn {
+  width: 5vw;
+  height: 7vh;
+  font-size: 1.2em;
+  background-color: #E6A5C9;
+  border-radius: 0.5vh;
+  box-shadow: inset 3px 2px 10px #FFF3FF, inset -5px -4px 10px #D9419F, rgba(0, 0, 0, 0.3) 0 5px 10px;
+  font-size: 1em;
+}
+body .body .btn:hover {
+  color: yellow;
+  font-size: 1.1em;
+}
+body .body img {
+  margin: 5vh 0;
+}
+body .body .resetBtn {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 5vh;
+  margin: 1vh 0;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  font-size: 1em;
+  background-color: #E6A5C9;
+  border-radius: 0.5vh;
+  box-shadow: inset 3px 2px 10px #FFF3FF, inset -5px -4px 10px #D9419F, rgba(0, 0, 0, 0.3) 0 5px 10px;
+}
+body .body .resetBtn:hover {
+  color: yellow;
+}
+body .body .user-tries {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 2vh;
+  margin-right: 10vw;
+}
+body .body #wordSpotlight {
+  font-size: 2.5em;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #AB9BAA;
+  color: #FFFAFF;
+  font-size: 1.2vw;
+}
+footer p {
+  padding-top: 7vh;
+  text-align: center;
+}
+footer address {
+  text-align: center;
+  padding-bottom: 7vh;
+}
+footer address a {
+  color: #FFFAFF;
+  text-decoration: none;
+}
+footer address a:hover {
+  color: yellow;
+  font-size: 1.1em;
+}
+
+/* RESPONSIVE LAYOUT */
+@media (max-width: 800px) {
+  body h1 {
+    margin-top: 2vh;
+    font-size: 2em;
+  }
+  body .body .guessTopic {
+    margin-top: 2vh;
+  }
+  body .body .user-tries {
+    justify-content: center;
+    margin-right: 0px;
+  }
+  body .body #keyboard {
+    width: 98%;
+    margin: 1vh 1vw;
+  }
+  body .body .btn {
+    width: 12vw;
+    height: 7vh;
+  }
+  body .body #wordSpotlight {
+    font-size: 2em;
+  }
+  body .body img {
+    margin-top: 2vh;
+    margin-bottom: 0;
+  }
+  footer {
+    font-size: 0.8em;
+  }
+}/*# sourceMappingURL=style.css.map */
